@@ -1,4 +1,4 @@
-# PolymerFirebase_BasicNodeApp
+# PolymerFirebase_BasicNoteApp
 ![homePageScreenShot](md_img/homePageScreenShot.png)
 
 # View this project live
