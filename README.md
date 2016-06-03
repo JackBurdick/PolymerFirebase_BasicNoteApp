@@ -2,8 +2,8 @@
 ![homePageScreenShot](md_img/homePageScreenShot.png)
 
 # View this project live
-![My project](https://< your project name >.firebaseapp.com/)
-* live as of 2June16
+[My project](https://< your project name >.firebaseapp.com/)
+* Live as of 2June16
 
 ## Information
 * Created from a [web tutorial](https://codelabs.developers.google.com/codelabs/polymer-firebase-pwa/index.html?index=..%2F..%2Fio2016#0)
@@ -19,9 +19,10 @@
 ![offline](md_img/offline.png)
 
 ### Looks like a native app on android
-![Android_pageIcon](md_img/Android_pageIcon.png)
-![Android_inApp](md_img/Android_inApp.png)
-![Android_splashScreen](md_img/Android_splashScreen.png)
+<img src="md_img/Android_pageIcon.png" alt="Android_pageIcon" style="width: 200px;"/>
+<img src="md_img/Android_splashScreen.png" alt="Android_splashScreen.png" style="width: 200px;"/>
+<img src="md_img/Android_inApp.png" alt="Android_inApp.png" style="width: 200px;"/>
+
 *note* that the previously created note syncs
 
 
