@@ -19,7 +19,9 @@
 ![offline](md_img/offline.png)
 
 ### Looks like a "native app" on android
-[Android_pageIcon](public/md_img/Android_pageIcon.png)![Android_inApp](public/md_img/Android_inApp.png)![Android_splashScreen](public/md_img/Android_splashScreen.png)
+![Android_pageIcon](public/md_img/Android_pageIcon.png)
+![Android_inApp](public/md_img/Android_inApp.png)
+![Android_splashScreen](public/md_img/Android_splashScreen.png)
 *note* that the previously created note syncs
 
 
