@@ -2,7 +2,7 @@
 ![homePageScreenShot](md_img/homePageScreenShot.png)
 
 # View this project live
-[My project](https://< your project name >.firebaseapp.com/)
+![My project](https://< your project name >.firebaseapp.com/)
 * live as of 2June16
 
 ## Information
@@ -10,16 +10,16 @@
 
 ## Content
 ### Sign in with google/account creation
-[googleSignin](md_img/googleSignin.png)
+![googleSignin](md_img/googleSignin.png)
 
 ### Create Notes
-[noteExample](md_img/noteExample.png)
+![noteExample](md_img/noteExample.png)
 
 ### allows "on the line" or "off the line" support
-[offline](md_img/offline.png)
+![offline](md_img/offline.png)
 
 ### Looks like a "native app" on android
-[Android_pageIcon](public/md_img/Android_pageIcon.png)[Android_inApp](public/md_img/Android_inApp.png)[Android_splashScreen](public/md_img/Android_splashScreen.png)
+[Android_pageIcon](public/md_img/Android_pageIcon.png)![Android_inApp](public/md_img/Android_inApp.png)![Android_splashScreen](public/md_img/Android_splashScreen.png)
 *note* that the previously created note syncs
 
 
