@@ -40,6 +40,21 @@
         opacity: 0.5;
       }
 
+      #title.placeholder:after {
+        content: 'Title - Tap to edit';
+        opacity: 0.5;
+      }
+
+      #url.placeholder:after {
+        content: 'URL - Tap to edit';
+        opacity: 0.5;
+      }
+
+      #body.placeholder:after {
+        content: 'Description - Tap to edit';
+        opacity: 0.5;
+      }
+
       .hidden {
         display: none;
       }
@@ -55,6 +70,13 @@
         id="title"
         class$="[[emptyClass(title, editable)]]"
         contenteditable$="[[editable]]"></h1>
+
+    <a href="[[url]]" target="_blank"><iron-icon icon="icons:link"></iron-icon></a>
+
+    <p
+        id="url"
+        class$="[[emptyClass(url, editable)]]"
+        contenteditable$="[[editable]]"></p>
     <p
         id="body"
         class$="[[emptyClass(body, editable)]]"
@@ -84,6 +106,12 @@
           value: ''
         },
 
+        url: {
+          type: String,
+          notify: true,
+          value: ''
+        },
+
         lastUpdated: {
           type: Number,
           value: 0
@@ -95,7 +123,7 @@
       },
 
       observers: [
-        'updateTextContent(title, body)'
+        'updateTextContent(title, body, url)'
       ],
 
       emptyClass(content, editable) {
@@ -115,16 +143,18 @@
         return true;
       },
 
-      updateTextContent(title, body) {
+      updateTextContent(title, body, url) {
         console.log(arguments);
         this.$.title.textContent = title;
         this.$.body.textContent = body;
+        this.$.url.textContent = url;
       },
 
       onInput() {
         this.async(function() {
           this.title = this.$.title.innerText;
           this.body = this.$.body.innerText;
+          this.url = this.$.url.innerText;
         });
       }
     })

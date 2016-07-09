@@ -1,0 +1,1 @@
+"use strict";importScripts("/sw-toolbox.js"),self.toolbox.options.cache={name:"precache-non-existant-files"},self.toolbox.precache(["/test/data/files/text.txt","/test/data/files/text-1.png","/doesnt-exist.txt","/nope/doesnt-exist.txt"]);

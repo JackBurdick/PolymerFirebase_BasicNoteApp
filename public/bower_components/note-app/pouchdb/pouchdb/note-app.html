@@ -21,7 +21,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         id="query"
         db-name="notes"
         selector="_id $gt 0"
-        fields='["_id", "title", "body"]'
+        fields='["_id", "title", "body", "url"]'
         sort='["_id"]'
         data="{{data}}">
     </app-pouchdb-query>

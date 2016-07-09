@@ -1,0 +1,6 @@
+<html><head><link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="firebase.html">
+</head><body><dom-module id="firebase-app">
+  <script>!function(){"use strict";Polymer({is:"firebase-app",properties:{name:{type:String,value:""},apiKey:{type:String},authDomain:{type:String},databaseUrl:{type:String},app:{type:Object,notify:!0,computed:"__computeApp(name, apiKey, authDomain, databaseUrl)"}},__computeApp:function(e,a,p,t){if(!(a&&p&&t))return null;var i=[{apiKey:a,authDomain:p,databaseURL:t}];return e&&i.push(e),firebase.initializeApp.apply(firebase,i),firebase.app(e)}})}();</script>
+</dom-module>
+</body></html>

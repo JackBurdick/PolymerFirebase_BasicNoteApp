@@ -80,7 +80,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       }
     </style>
     <div id="background"></div>
-    <na-note id="note" title="{{note.title}}" body="{{note.body}}" editable></na-note>
+    <na-note id="note" title="{{note.title}}" url="{{note.url}}" body="{{note.body}}" editable></na-note>
     <div class="controls">
       <paper-button on-tap="delete">Delete</paper-button>
       <paper-button on-tap="save">Done</paper-button>
@@ -117,7 +117,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
 
       create() {
         this._setOpened(true);
-        this.note = { title: '', body: '' };
+        this.note = { title: '', body: '', url: '' };
         this.transitionInFrom(this.getBoundingClientRect());
       },
 
